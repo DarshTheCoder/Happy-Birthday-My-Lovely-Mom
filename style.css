@@ -1,0 +1,39 @@
+.copy_right_footer
+  {
+    background-color:red;
+    position:fixed;
+    color:aquamarine;
+    bottom:0;
+    width:100%;
+    line-height:3;
+    text-align:center;
+
+  }
+  span{
+    color:yellow;
+  }
+  body{
+    background-color:chartreuse
+  }
+  #audio_sound
+  {
+    visibility: hidden;
+  }
+  #photo_container
+  {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+width:80%;
+
+  }
+  @keyframes example
+  {
+    from{box-shadow:20px 20px 38px chocolate;}
+    to{box-shadow:10px 10px 38px yellowgreen;}
+  }
+  #home{
+    border-radius: 50px;
+    font:bold;
+
+  }
